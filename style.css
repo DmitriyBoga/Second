@@ -1,0 +1,176 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    background: url('mazda/image/salon.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    min-width: 1000px;
+}
+.nav{  
+    width: 100%;
+    height: 55px;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: space-around;
+    gap: 400px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}  
+.a{
+    width: 90px;
+    height: auto;
+    background-color: azure;
+    border-radius: 5px;
+}
+.a:hover{
+    background-color: silver;
+}
+.navi{
+    display: flex;
+    justify-content:flex-end;
+    gap: 50px;
+}
+.nav-dop{
+    display: flex;
+    justify-content: flex-end;
+}
+.lo{
+    width: 50px;
+    height: 50px;
+}
+.nav:hover{
+    background-color: rgb(153, 152, 152);
+
+}
+.modern-generation{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:rgb(153, 152, 152,0.8) ;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 7px;
+
+}
+h1{
+    font-size: 48px;
+}
+p{
+    font-size: 20px;
+}
+.text p,h1{
+    color:white;
+}
+.mazda{
+    width: 500px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+.text{
+    width: 500px;
+    height: auto;
+}
+.sign1{
+    display: block;
+    margin-bottom: 15px;
+    background-color: silver;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.sign1:hover{
+    background-color: #E5E7EB;
+}
+.info-h1{
+    text-align: center;
+    font-size: 38px;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mazda-info{
+    width: 200px;
+    height: 135px;
+    border-radius: 7px;
+}
+.first{
+    border: 2px outset rgb(0, 140, 255);
+    border-radius: 7px;
+    background-color:rgb(153, 152, 152) ;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+}
+.first p{
+    color: white;
+    text-align: center;
+}
+.text-sec{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    background-color: gray;
+    background-size: 100%;
+    width: 100%;
+    height: auto;
+
+}
+.text-mazda{
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+    margin: auto;
+    color:black;
+    font-weight: bold;
+}
+.four{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.four-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 7px;
+    width: 1000px;
+    gap: 150px;
+}
+.sign2{
+    display: block;
+    background-color: #3882F6;
+    border-color: black;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    background-color: silver;
+    color:#1F2937;
+    size:36px;
+}
+.sign2:hover{
+    background-color: #E5E7EB;
+    font-size: 18px;
+}
+h3{
+    font-size: 25px;
+}
